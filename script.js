@@ -1,12 +1,12 @@
 let scrollerButton = document.getElementById("scroller");
-let fromButton = document.getElementById("fromBtn");
+let formButton = document.getElementById("formButton");
 
 scrollerButton.onclick = function(e){
     document.documentElement.scrollTop = 2;
-    setTimeout(() => {fromButton.style.backgroundColor = "green";}, 700)
-    
+    setTimeout(() => {formButton.style.backgroundColor = "green";}, 600)
 }
 
-fromButton.onclick = function(e){
-    e.preventDefault()
+formButton.onclick = function(e){
+    e.preventDefault();
+    alert("Thanks for joining");
 }

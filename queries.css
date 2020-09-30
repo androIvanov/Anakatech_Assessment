@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1162px) {
+    .head{
+        background-image: url("./images/background-tablet.png");
+        /* background-size: cover; */
+    }
+    .arrows{
+        transform: rotate(90deg);
+        margin-left: 600px;
+    }
+    .form{
+        margin-left: 400px;
+    }
+    .head{
+        height: 300px;
+    }
+    .step{
+        text-align: left;
+        display: block;
+        margin: 0 auto;
+        width: 800px;
+    }
+    .stepContent{
+        margin-left: 40px;
+    }
+    .form label{
+        padding-top: 31px;
+    }
+    .form button{
+        margin-bottom: 32px;
+    }
+    .people :first-child{
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .person img{
+        margin-top: 200px;
+    }
+  }
+
+
+@media only screen and (max-width: 870px) {
+    .step{
+        text-align: left;
+        display: block;
+        margin: 0 auto;
+        width: 600px;
+    }
+    .form{
+        margin-left: 200px;
+    }
+    .arrows{
+        transform: rotate(90deg);
+        margin-left: 500px;
+    }
+    .person{
+        /* width:400px ; */
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .step{
+        text-align: left;
+        display: block;
+        margin: 0 auto;
+        width: 600px;
+    }
+    .form{
+        margin-left: 200px;
+    }
+    .arrows{
+        transform: rotate(90deg);
+        margin-left: 270px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .step{
+        text-align: left;
+        display: block;
+        margin: 0 auto;
+        width: 400px;
+    }
+    .avatar{
+        display: block;
+        border: none;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 550) {
+    .step{
+        text-align: left;
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+    }
+    .head{
+        background-image: url("./images/background-mobile.png");
+    }
+}
+
+@media only screen and (max-width: 350) {
+    .step{
+        text-align: left;
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+    }
+}
