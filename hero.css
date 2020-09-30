@@ -3,6 +3,7 @@
 }
 .head{
     background-image: url("./images/background-desktop.png");
+    background-size: cover;
 }
 .from{
     background: rgba(63, 63, 63, 0.6);
