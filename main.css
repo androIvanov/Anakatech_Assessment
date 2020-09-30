@@ -1,5 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
 .main{
     text-align: center;
+}
+.main button{
+    cursor: pointer;
 }
 .title{
     color: #3F3F3F;
