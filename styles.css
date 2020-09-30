@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+.head{
+    background-image: url("./images/background-desktop.png");
+}
+.from{
+    background: rgba(63, 63, 63, 0.6);
+    display: inline-block;
+    text-align: center;
+    margin-left: 1165px;
+}
+.from label, input, button{
+    display: block;
+}
+.from label{
+    padding: 182px 30px 15px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+.from input, button{
+    margin: 0 auto;
+}
+.from input{
+    margin-bottom: 15px;
+}
+.from button{
+    margin-bottom: 182px;
+}
