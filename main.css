@@ -1,0 +1,57 @@
+.main{
+    text-align: center;
+}
+.title{
+    color: #3F3F3F;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 57px;
+    margin-bottom: 57px;
+}
+.step{
+    display: inline-block;
+    border: 1px solid #DCDCDC;
+    width: 350px;
+    height: 200px;
+    margin-bottom: 250px;
+    margin-right: 30px;
+}
+.arrows{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 60px solid #1699D3;
+    border-bottom: 50px solid transparent;
+    margin-bottom: -20px;
+    margin-left: -35px;
+    margin-right: -25px;
+    position: relative;
+}
+.stepTitle{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Roboto;
+    color: #3F3F3F;
+    margin-bottom: 15px;
+    margin-top: 58px;
+}
+.stepDescription{
+    font-weight: 300;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #3F3F3F;
+    font-style: normal;
+}
+.stepText{
+    display: inline-block;
+    text-align: left;
+}
+.stepNumber{
+    font-family: Roboto;
+    font-size: 105px;
+    color: #3F3F3F;
+    margin-right: 30px;
+
+}
