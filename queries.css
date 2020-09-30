@@ -1,7 +1,6 @@
 @media only screen and (max-width: 1162px) {
     .head{
         background-image: url("./images/background-tablet.png");
-        /* background-size: cover; */
     }
     .arrows{
         transform: rotate(90deg);
@@ -32,76 +31,63 @@
         margin: 0;
         margin-bottom: 30px;
     }
-    .person img{
-        margin-top: 200px;
-    }
   }
 
 
-@media only screen and (max-width: 870px) {
-    .step{
-        text-align: left;
-        display: block;
-        margin: 0 auto;
-        width: 600px;
-    }
-    .form{
-        margin-left: 200px;
-    }
-    .arrows{
-        transform: rotate(90deg);
-        margin-left: 500px;
-    }
-    .person{
-        /* width:400px ; */
-    }
-}
 
-@media only screen and (max-width: 870px) {
-    .step{
-        text-align: left;
-        display: block;
-        margin: 0 auto;
-        width: 600px;
-    }
-    .form{
-        margin-left: 200px;
-    }
-    .arrows{
-        transform: rotate(90deg);
-        margin-left: 270px;
-    }
-}
-@media only screen and (max-width: 700px) {
+
+
+
+  @media only screen and (max-width: 870px) {
     .step{
         text-align: left;
         display: block;
         margin: 0 auto;
         width: 400px;
     }
-    .avatar{
-        display: block;
-        border: none;
-        margin: 0 auto;
+    .form{
+        margin-left: 200px;
+    }
+    .arrows{
+        margin-left: 200px;
     }
 }
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .step{
+        width: 400px;
+    }
+    .arrows{
+        margin-left: 100px;
+    }
+    .form{
+        margin-left: 150px;
+    }
+}
+
+
 @media only screen and (max-width: 550) {
     .step{
-        text-align: left;
-        display: block;
-        margin: 0 auto;
         width: 100px;
     }
     .head{
         background-image: url("./images/background-mobile.png");
     }
+    body{
+        background-color: springgreen;
+    }
 }
+
+
 
 @media only screen and (max-width: 350) {
     .step{
         text-align: left;
         display: block;
         margin: 0 auto;
-        width: 100px;
+        max-width: 50px;
     }
 }
