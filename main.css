@@ -96,3 +96,35 @@
     color: #373737;
     margin-bottom: 18px;
 }
+.bottomButton{
+    background-color: #F16529;
+    width: 540px;
+    height: 60px;
+    margin-bottom: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Roboto;
+    color: white;
+}
+.icons :not(:last-child){
+    margin-right: 30px;
+}
+.icons{
+    margin-bottom: 50px;
+}
+footer{
+    height: 120px;
+    background: rgba(220, 220, 220, 0.6);
+    text-align: center;
+    font-family: Roboto;
+    color: #373737;
+}
+.links{
+    color: #373737;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer a{
+    margin-right: 30px;
+    font-size: 16px;
+}
